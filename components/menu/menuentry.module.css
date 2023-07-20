@@ -1,0 +1,28 @@
+.container {
+    margin: 0;
+    padding: 0 8px;
+    border: 1px solid transparent;
+}
+
+.container:hover {
+    border-bottom: 1px solid #000000;
+    background-color: #f0f0f0;
+}
+
+.container > a {
+    color: #000000;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.container.selected {
+    border-top: 1px solid #ffffff;
+    border-bottom: 1px solid #ff0000;
+    background: linear-gradient(0deg,
+        rgba(255,224,224,1) 0%,
+        rgba(255,255,255,1) 15%);
+}
+
+.container.selected > a {
+    color: #ff0000;
+}

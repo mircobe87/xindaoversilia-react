@@ -1,0 +1,39 @@
+.container {
+    margin: 0;
+    padding: 0 8px;
+    border: 1px solid transparent;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.container:hover {
+    background-color: #f0f0f0;
+}
+
+.containerList {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    display: none;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: flex-start;
+    background-color: #f0f0f0;
+}
+
+.containerList.visible {
+    display: flex;
+}
+
+.containerTitle {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.containerTitle > div {
+    display: block;
+    margin: 0;
+    padding: 0 0 0 4px;
+}

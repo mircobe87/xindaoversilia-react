@@ -1,0 +1,28 @@
+.plate {
+    margin: 0;
+    padding: 0;
+}
+
+.boiler {
+    margin: 0 auto;
+    padding: 0;
+    max-width: 640px;
+}
+
+@media screen and (min-width: 860px) {
+    .boiler {
+        max-width: 720px;
+    }    
+}
+
+@media screen and (min-width: 1000px) {
+    .boiler {
+        max-width: 920px;
+    }    
+}
+
+@media screen and (min-width: 1280px) {
+    .boiler {
+        max-width: 1200px;
+    }    
+}
