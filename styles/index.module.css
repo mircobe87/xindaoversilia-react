@@ -1,0 +1,91 @@
+.cover {
+    color: #ffffff;
+    margin: 32px 0;
+    padding: 300px 32px 32px 32px;
+    background: url("/images/photo_2023-07-15_12-14-35.jpg"), rgba(0, 0, 0, 0.5);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-blend-mode: multiply;
+    background-size: cover;
+}
+
+.cover > h1 {
+    margin: 0;
+    padding: 60px 0 0 0;
+    font-size: 60px;
+    line-height: 60px;
+    text-decoration: underline;
+}
+
+.cover > h2 {
+    margin: 0;
+    padding: 16px 0 0 0;
+    font-size: 32px;
+    line-height: 32px;
+    font-weight: lighter;
+}
+
+.cover > p {
+    margin: 0;
+    padding: 8px 0 0 0;
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: lighter;
+}
+
+.topSeparator {
+    --path: 0 100%, 20% 0, 40% 25%, 60% 60%, 80% 0, 100% 100%;
+    min-height: 32px;
+    background: #ebebeb;
+    clip-path: polygon(var(--path));
+}
+
+.bottomSeparator {
+    --path: 0 0, 0 100%, 20% 0, 40% 25%, 60% 60%, 80% 0, 100% 100%, 100% 0;
+    min-height: 32px;
+    background: #ebebeb;
+    clip-path: polygon(var(--path));
+}
+
+.columnsContainer {
+    padding: 8px 0;
+    background-color: #ebebeb;
+    color: #202124;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.columnsContainer > div {
+    padding: 0 16px;
+    margin: 0 16px;
+    max-width: 500px;
+    text-align: justify;
+}
+
+.columnsContainer > div:nth-child(odd) {
+    background-color: #ffffff;
+    border-radius: 8px;
+}
+
+.columnsContainer > div > h2 {
+    font-style: italic;
+    color: #cc0000;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.columnsContainer > div > h1 {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 32px;
+    margin: 20px 0 26px 0;
+}
+
+.columnsContainer > div > p {
+    line-height: 24px;
+    font-size: 16px;
+}
