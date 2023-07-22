@@ -1,7 +1,58 @@
-.container {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
+.burger {
+    display: block;
     margin: 0;
+    padding: 0 16px 0 0;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+.burger > svg {
+    height: 28px;
+    width: 28px;
+}
+
+.container {
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 48px;
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 96px;
+    left: 0;
+    right: 0;
+    border-top: 2px solid #cc0000;
+    margin: 0 auto;
+    max-width: 640px;
+    background-color: #ebebeb;
+}
+
+.container.open {
+    display: flex;
+}
+
+@media screen and (min-width: 690px) {
+    .burger {
+        padding-right: 0;
+    }
+}
+
+@media screen and (min-width: 981px) {
+    .burger {
+        display: none;
+    }
+
+    .container {
+        display: flex;
+        position: relative;
+        top: auto;
+        left: auto;
+        right: auto;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        margin: 0;
+        max-width: none;
+        border-top: none
+    }
 }
