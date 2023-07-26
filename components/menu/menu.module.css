@@ -25,6 +25,7 @@
     margin: 0 auto;
     max-width: 640px;
     background-color: #ebebeb;
+    box-shadow: 0 2px 5px rgba(0,0,0,.1);
 }
 
 .container.open {
@@ -53,6 +54,7 @@
         align-items: center;
         margin: 0;
         max-width: none;
-        border-top: none
+        border: none;
+        box-shadow: none;
     }
 }

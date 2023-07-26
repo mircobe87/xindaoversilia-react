@@ -1,18 +1,33 @@
 .container {
     margin: 0;
-    padding: 0 8px;
+    padding: 0 16px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.03);
+    white-space: nowrap;
 }
 
 .container:hover {
     opacity: 0.7;
+    background-color: rgba(0, 0, 0, 0.03);
 }
 
 .container > a {
     color: #000000;
     text-decoration: none;
     text-transform: uppercase;
+    display: block;
 }
 
 .container.selected > a {
     color: #cc0000;
+}
+
+@media screen and (min-width: 981px) {
+    .container {
+        border-bottom: none;
+    }
+
+    .container:hover {
+        opacity: 0.7;
+        background-color: inherit;
+    }
 }
