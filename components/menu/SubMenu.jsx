@@ -2,18 +2,16 @@ import styles from './submenu.module.css';
 import clsx from 'clsx';
 
 import { BsChevronDown, BsChevronUp } from 'react-icons/bs';
-import { useState } from 'react';
 
-export default function SubMenu({name, children}) {
-    const [open, setOpen] = useState(false);
+export default function SubMenu({name, isOpen, onClick, children}) {
 
     return (
-        <div className={styles.container} >
-            <div className={styles.containerTitle} onClick={() => setOpen(!open)}>
+        <div className={styles.container}>
+            <div className={styles.containerTitle} onClick={onClick}>
                 <div>{name}</div>
-                {open ? <BsChevronUp/> : <BsChevronDown/>}
+                {isOpen ? <BsChevronUp/> : <BsChevronDown/>}
             </div>
-            <div className={clsx(styles.containerList, {[styles.visible]: open})}>{children}</div>
+            <div className={clsx(styles.containerList, {[styles.visible]: isOpen})}>{children}</div>
         </div>
     );
 }
