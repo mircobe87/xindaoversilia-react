@@ -1,7 +1,12 @@
 .boilerplate {
     background-color: #252525;
     color: #ffffff;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
+}
+
+.boilerplate a {
+    text-decoration: none;
+    color: inherit;
 }
 
 .recap {
@@ -38,6 +43,19 @@
 }
 .recap img {
     margin: 8px;
+}
+
+.recap ul {
+    color: #bababa;
+    display: block;
+    list-style: none;
+    list-style-type: disc;
+    list-style-position: inside;
+    padding: 0;
+}
+
+.recap ul ul{
+    padding-left: 16px;
 }
 
 .copyright {

@@ -17,6 +17,39 @@ export default function Footer() {
                     <p>Email: info@email.it</p>
                 </div>
                 <div>
+                    <h1>pagine</h1>
+                    <ul>
+                        <li><Link href="/">Home</Link></li>
+                        <li>Corsi</li>
+                        <ul>
+                            <li><Link href="/corsi/adulti">Corso per Adulti</Link></li>
+                            <li><Link href="/corsi/bambini">Corso per Bambini</Link></li>
+                        </ul>
+                        <li>Scuola</li>
+                        <ul>
+                            <li><Link href="/scuola/xin_dao">Scuola Xin Dao</Link></li>
+                            <li><Link href="/scuola/maestro_dazzini">Maestro Federico Dazzini</Link></li>
+                            <li><Link href="/scuola/maestro_gumazza">Maestro Marco Gumazza</Link></li>
+                            <li><Link href="/scuola/maestro_linsheng">Maestro Yang Linsheng</Link></li>
+                            <li><Link href="/scuola/maestri_passato">Maestri Del Passato</Link></li>
+                            <li><Link href="/scuola/sistema_gradi">Sistema Dei Gradi</Link></li>
+                            <li><Link href="/scuola/organigramma">Organigramma</Link></li>
+                            <li><Link href="/scuola/statuto">Statuto</Link></li>
+                        </ul>
+                        <li>Stili</li>
+                        <ul>
+                            <li><Link href="/stili/kung_fu">Kung Fu</Link></li>
+                            <li><Link href="/stili/shaolin_quan">Shaolin Quan</Link></li>
+                        </ul>
+                        <li><Link href="/blog/blog-index">Kung Fu Blog</Link></li>
+                        <li>Eventi</li>
+                        <ul>
+                            <li><Link href="/eventi/lista">Lista Eventi</Link></li>
+                            <li><Link href="/eventi/calendario">Calendario</Link></li>
+                        </ul>
+                    </ul>
+                </div>
+                <div>
                     <div>
                         <h1>seguici sui social</h1>
                         <BsFacebook/><BsInstagram/><BsYoutube/>
