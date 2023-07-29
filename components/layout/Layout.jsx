@@ -14,6 +14,7 @@ export default function Layout({ children, title, description }) {
                 <meta name="robots" content="max-image-preview:standard, max-snippet:50"></meta>
                 <meta property="og:title" content={title}></meta>
                 <meta property="og:type" content="website"></meta>
+                <title>{title}</title>
             </Head>
             <TitleBar/>
             <main>{children}</main>
