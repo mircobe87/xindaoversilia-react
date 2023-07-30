@@ -1,0 +1,76 @@
+.container {
+    padding: 16px 8px;
+    text-align: justify;
+}
+
+.container a {
+    text-decoration: none;
+    color: #cc0000;
+}
+
+.sectionHeader h1 {
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.sectionHeader h2 {
+    font-size: 26px;
+    font-weight: 400;
+}
+
+.sectionHeader h3 {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.sectionHeader p {
+    font-size: 1.2rem;
+    font-style: italic;
+    font-weight: bold;
+}
+
+@media screen and (min-width: 1000px) {
+    .flexRow {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .flexRow > div:nth-child(n+2) {
+        padding: 0 0 0 20px;
+    }
+}
+
+/*---------------------------------*/
+.boilerPlateAdulti {
+    background-color: #fafafa;
+}
+
+.tableTitle {
+    text-transform: uppercase;
+    text-align: center;
+    background-color: #f2f2f2;
+    font-size: 20px;
+    line-height: 38px;
+    letter-spacing: 6px;
+}
+
+.tableTitleRed {
+    text-transform: uppercase;
+    text-align: center;
+    background-color: #f2f2f2;
+    color: #cc0000;
+    font-size: 20px;
+    line-height: 38px;
+    letter-spacing: 6px;
+}
+
+/*------------------------------*/
+.boilerPlateDuan {
+    background-color: #e8e8e8;
+}
+
+/*------------------------------*/
+.boilerPlateSimbologia {
+    background-color: #fafafa;
+    box-shadow: inset 0 0 18px 0 rgba(0, 0, 0, 0.3);
+}
