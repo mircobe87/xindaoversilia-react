@@ -13,7 +13,6 @@
 
 .container {
     font-weight: 500;
-    letter-spacing: 1px;
     line-height: 48px;
     display: none;
     flex-direction: column;
@@ -26,10 +25,12 @@
     max-width: 640px;
     background-color: #ebebeb;
     box-shadow: 0 2px 5px rgba(0,0,0,.1);
+    font-size: 14px;
 }
 
 .container.open {
     display: flex;
+    z-index: 1;
 }
 
 @media screen and (min-width: 690px) {
@@ -38,7 +39,7 @@
     }
 }
 
-@media screen and (min-width: 981px) {
+@media screen and (min-width: 1000px) {
     .burger {
         display: none;
     }
