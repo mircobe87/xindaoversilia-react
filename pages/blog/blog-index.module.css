@@ -1,0 +1,33 @@
+.headerBoilerPlate {
+    background-color: #ebebeb;
+    text-align: center;
+}
+
+.pageHeader > h1 {
+    font-weight: 400;
+    margin: 0;
+    padding: 16px 0 0 0;
+    font-size: 30px;
+    line-height: 40px;
+}
+
+.pageHeader > h1 > strong {
+    color: #cc0000;
+    font-weight: inherit;
+}
+
+.pageHeader a {
+    color: #cc0000;
+    text-decoration: none;
+}
+
+.headerBoilerPlate::after {
+    content: '';
+    --path: 0 100%, 20% 0, 40% 25%, 60% 60%, 80% 0, 100% 100%;
+    min-height: 32px;
+    background: #ffffff;
+    clip-path: polygon(var(--path));
+    display: block;
+    position: relative;
+    z-index: inherit;
+}

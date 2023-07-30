@@ -1,0 +1,52 @@
+.container {
+    display: block;
+    border: 1px solid #d8d8d8;
+    border-radius: 4px;
+    word-wrap: break-word;
+}
+
+.container > img {
+    display: block;
+    min-width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
+.container > div {
+    padding: 16px;
+}
+
+.summary > h1 {
+    font-weight: 500;
+    line-height: 38px;
+    font-size: 32px;
+    margin: 0;
+    padding: 0;
+}
+
+.summary > p {
+    margin: 0;
+    padding: 8px 0;
+    font-weight: 400;
+    font-size: inherit;
+    color: #666666;
+}
+
+.container a {
+    text-transform: uppercase;
+    background: #c00;
+    color: #fff;
+    padding: 6px;
+    width: 110px;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    margin: 16px 0;
+    border: 1px solid #c00;
+    text-decoration: none;
+    display: block;
+}
+
+.category {
+    font-style: italic;
+}
