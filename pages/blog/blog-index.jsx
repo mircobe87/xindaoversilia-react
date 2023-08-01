@@ -8,6 +8,7 @@ import BoilerPlate from "../../components/layout/BoilerPlate";
 import Link from "next/link";
 import ArticlePreview from "../../components/ArticlePreview";
 import { useState } from "react";
+import CategoryAndTextInput from "../../components/CategoryAndTextInput";
 
 const title = "Kung Fu Blog";
 const description = "Kung Fu blog, la nostra idea sulle arti marziali";
@@ -47,9 +48,9 @@ export default function({articles}) {
 
     function articleChooser(article) {
         return (
-                titleFilter.length == 0 || article.title.toLocaleLowerCase().contains(titleFilter.toLocaleLowerCase())
+                titleFilter.length == 0 || article.title.toLowerCase().includes(titleFilter.toLowerCase())
             ) && (
-                categoryFilter.length == 0 || article.category.toLocaleLowerCase() == categoryFilter.toLocaleLowerCase()
+                categoryFilter.length == 0 || article.category.toLowerCase() == categoryFilter.toLowerCase()
             );
     }
 
@@ -72,6 +73,17 @@ export default function({articles}) {
                 </div>
             </BoilerPlate>
             <BoilerPlate>
+                <CategoryAndTextInput
+                    placeholder="cerca per titolo"
+                    categories={
+                        Object.keys(articles.reduce((aggr, item) => {
+                            aggr[item.category] = true;
+                            return aggr;
+                        }, {}))
+                    }
+                    onCategoryChange={setCategoryFilter}
+                    onTextChange={setTitleFilter}
+                />
                 <div className={styles.previewContainer}>
                     {
                         articles

@@ -1,0 +1,45 @@
+.container {
+    white-space: nowrap;
+}
+.categoryItem {
+    cursor: pointer;
+    margin: 0 0 0 8px;
+    border-bottom: 2px solid transparent;
+    color: #666666;
+    user-select: none
+}
+
+.categoryItem:hover {
+    border-bottom: 2px solid #ffcdcd;
+}
+
+.categoryItem.selected {
+    border-bottom: 2px solid #cc0000;
+    color: #000000;
+}
+
+.textInput {
+    border: none;
+    border-bottom: 2px solid #bababa;
+    margin: 0 0 0 8px;
+    font-size: 16px;
+    line-height: 18px;
+}
+
+.textInput:hover {
+    border-bottom: 2px solid #ffcdcd;
+}
+
+.textInput:focus {
+    outline: none;
+    border-bottom: 2px solid #cc0000;
+}
+.textInput::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    font-style: italic;
+    text-align: center;
+    color: #bababa;
+}
+
+.seachingIcons {
+    color: #666666;
+}
