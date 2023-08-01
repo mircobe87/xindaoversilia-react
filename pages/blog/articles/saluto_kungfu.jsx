@@ -1,9 +1,25 @@
-const title = "Saluto Kung Fu";
-const description = "Bao Quan Li è il saluto del Kung Fu tradizionale che si esegue tra praticanti, il suo significato è profondo ed è legato ai valori delle Arti Marziali.";
-const category = "kung fu";
+import fs from 'fs';
+import path from 'path';
 
-export const articleSummary = {title, description, category};
+const metadata = "saluto_kungfu.json";
+const articlesDirectory = path.join(process.cwd(), 'pages', 'blog', 'articles');
 
-export default function () {
-    return '';
+export default function ({title, description}) {
+    return (
+        <>
+            <div>{title}</div>
+            <div>{description}</div>
+        </>
+    );
+}
+
+export async function getStaticProps() {
+    let articleMetadataFilePath = path.join(articlesDirectory, metadata);
+    let metadataFile = fs.readFileSync(articleMetadataFilePath);
+    return {
+        props: {
+            id: metadata.replace(/\.json$/, ''),
+            ...JSON.parse(metadataFile)
+        }
+    };
 }

@@ -3,6 +3,7 @@
     border: 1px solid #d8d8d8;
     border-radius: 4px;
     word-wrap: break-word;
+    margin-bottom: 32px;
 }
 
 .container > img {
@@ -47,6 +48,23 @@
     display: block;
 }
 
+.metainfoContainer {
+    color: #666666;
+}
+
 .category {
     font-style: italic;
+}
+
+.date {
+    font-style: italic;
+}
+
+@media screen and (min-width: 860px) {
+    .container {
+        max-width: 340px;
+        height: 580px;
+        margin-left: 16px;
+        margin-right: 16px;
+    }
 }

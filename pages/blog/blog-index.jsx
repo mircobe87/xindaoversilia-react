@@ -7,6 +7,7 @@ import Layout from "../../components/layout/Layout";
 import BoilerPlate from "../../components/layout/BoilerPlate";
 import Link from "next/link";
 import ArticlePreview from "../../components/ArticlePreview";
+import { useState } from "react";
 
 const title = "Kung Fu Blog";
 const description = "Kung Fu blog, la nostra idea sulle arti marziali";
@@ -40,6 +41,24 @@ function getArticleMetadata(articlesDirectory, availalbeArticles) {
 }
 
 export default function({articles}) {
+
+    const [titleFilter, setTitleFilter] = useState("");
+    const [categoryFilter, setCategoryFilter] = useState("");
+
+    function articleChooser(article) {
+        return (
+                titleFilter.length == 0 || article.title.toLocaleLowerCase().contains(titleFilter.toLocaleLowerCase())
+            ) && (
+                categoryFilter.length == 0 || article.category.toLocaleLowerCase() == categoryFilter.toLocaleLowerCase()
+            );
+    }
+
+    function articleComparator(article0, article1) {
+        if (article0.date < article1.date) return -1;
+        if (article0.date > article1.date) return  1;
+        return 0;
+    }
+
     return (
         <Layout title={title} description={description}>
             <BoilerPlate className={styles.headerBoilerPlate}>
@@ -53,9 +72,15 @@ export default function({articles}) {
                 </div>
             </BoilerPlate>
             <BoilerPlate>
-                {
-                    articles.map(article => <ArticlePreview key={article.id} {...article}></ArticlePreview>)
-                }
+                <div className={styles.previewContainer}>
+                    {
+                        articles
+                            .filter(articleChooser)
+                            .sort(articleComparator)
+                            .reverse()
+                            .map(article => <ArticlePreview key={article.id} {...article}></ArticlePreview>)
+                    }
+                </div>
             </BoilerPlate>
         </Layout>
     );
