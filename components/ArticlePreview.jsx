@@ -29,7 +29,7 @@ export default function ArticlePreview({ id, title, description, category, cover
                     <h1>{title}</h1>
                     <p>{description}</p>
                 </div>
-                <Link href={"/blog/articles/"+id}>Scopri di più</Link>
+                <Link href={`/blog/articles/${id}`}>Scopri di più</Link>
             </div>
         </article>
     );
