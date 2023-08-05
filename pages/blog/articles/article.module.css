@@ -1,0 +1,51 @@
+.articleContainer {
+    padding: 0 8px;
+}
+
+.articleContainer a {
+    text-decoration: none;
+    color: #cc0000;
+}
+
+.articleContainer > h1 {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 64px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.articleContainer > h2 {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+    margin: 0;
+    padding: 16px 0 0 0;
+    text-shadow: 0px 4px 4px #bababa;
+}
+
+.articleContainer > h3 {
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 32px;
+    margin: 0;
+    padding: 8px 0 0 0;
+}
+
+.articleContainer > p {
+    text-align: justify;
+    margin: 10px 0;
+}
+
+.articleContainer > img {
+    display: block;
+    margin: 16px auto;
+    border-radius: 8px;
+    max-width: 100%;
+}
+
+.metadataContainer {
+    display: flex;
+    justify-content: center;
+}
