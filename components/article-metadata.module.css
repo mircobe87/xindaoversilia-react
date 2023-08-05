@@ -1,0 +1,12 @@
+.metadataContainer {
+    word-wrap: break-word;
+    color: #666666;
+}
+
+.category {
+    font-style: italic;
+}
+
+.date {
+    font-style: italic;
+}

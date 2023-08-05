@@ -48,18 +48,6 @@
     display: block;
 }
 
-.metainfoContainer {
-    color: #666666;
-}
-
-.category {
-    font-style: italic;
-}
-
-.date {
-    font-style: italic;
-}
-
 @media screen and (min-width: 860px) {
     .container {
         max-width: 340px;

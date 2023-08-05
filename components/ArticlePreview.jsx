@@ -1,31 +1,18 @@
 import Link from 'next/link';
-import style from './article-preview.module.css';
-import {BsCalendar3, BsTag} from 'react-icons/bs';
+import styles from './article-preview.module.css';
 import moment from 'moment/min/moment-with-locales';
+import ArticleMetadata from './ArticleMetadata';
 
 moment.locale('it');
 
 export default function ArticlePreview({ id, title, description, category, cover, date }) {
 
-    function renderDate() {
-        let momentDate = moment(date);
-        if (momentDate.isValid()) {
-            return (
-                <>
-                    <BsCalendar3/>&nbsp;<span className={style.date}>{momentDate.format("DD-MMM-yy")}</span>&nbsp;&nbsp;
-                </>
-            );
-        }
-    }
-
     return (
-        <article className={style.container}>
+        <article className={styles.container}>
             <img src={cover ? cover : "/images/article_cover_missing.png"} alt={cover}></img>
             <div>
-                <div className={style.metainfoContainer}>
-                    {renderDate()}<BsTag/>&nbsp;<span className={style.category}>{category}</span>
-                </div>
-                <div className={style.summary}>
+                <ArticleMetadata date={date} category={category}></ArticleMetadata>
+                <div className={styles.summary}>
                     <h1>{title}</h1>
                     <p>{description}</p>
                 </div>
