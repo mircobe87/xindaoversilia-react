@@ -49,9 +49,9 @@
     display: block;
 }
 
-@media screen and (min-width: 860px) {
+@media screen and (min-width: 1000px) {
     .container {
-        width: 380px;
+        max-width: 356px;
         margin-left: 16px;
         margin-right: 16px;
     }
