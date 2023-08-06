@@ -2,6 +2,19 @@
     padding: 0 8px;
 }
 
+.articleContainer > span {
+    display: inline-block;
+    padding: 0 8px;
+}
+
+.articleContainer > span > p {
+    margin: 0;
+    padding: 0;
+    line-height: 18px;
+    font-size: 16px;
+    font-style: italic;
+}
+
 .articleContainer a {
     text-decoration: none;
     color: #cc0000;
