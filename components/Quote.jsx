@@ -2,7 +2,15 @@ import Link from 'next/link';
 import { BsLink45Deg } from 'react-icons/bs';
 import styles from './quote.module.css';
 
-export default function Quote({ author, href=null, children }) {
+export default function Quote({ author, href=null, newPage=false, children }) {
+
+    function renderLink() {
+        if (newPage) {
+            return (<a href={href} target="_blank" rel="noopener noreferrer">{author}</a>);
+        } else {
+            return (<Link href={href}>{author}</Link>);
+        }
+    }
 
     function renderAuthorSection() {
         if (!href) {
@@ -10,7 +18,7 @@ export default function Quote({ author, href=null, children }) {
         } else {
             return (
                 <div className={styles.author}>
-                    <BsLink45Deg/><Link href={href}>{author}</Link>
+                    <BsLink45Deg/>{renderLink()}
                 </div>
             );
         }
