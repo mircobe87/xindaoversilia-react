@@ -132,7 +132,7 @@ export default function ({title, description, date, cover, category}) {
                     <p>
                         Secondo <b>la leggenda più nota e diffusa</b>, un monaco indiano
                         chiamato <Link href="/blog/articles/bodhidharma"><strong>Bodhidharma</strong></Link>,
-                        si recò in Cina presso il <Link href="https://www.kungfuscuolaxindao.it/dove-e-nato-il-kung-fu/"><strong>Tempio
+                        si recò in Cina presso il <Link href="/blog/articles/dove_nato_kungfu"><strong>Tempio
                         Shaolin del nord</strong></Link> (provincia dello Henan) intorno al V secolo d.C. e
                         insegnò ai <strong>monaci buddisti</strong> che vivevano nel tempio il primo nucleo
                         di tecniche di combattimento. Queste tecniche avevano sia uno scopo difensivo da popolazioni
@@ -261,7 +261,7 @@ export default function ({title, description, date, cover, category}) {
                     <div className={styles.highlightedBox}>
                         <h4>Elenco degli stili del nord</h4>
                         <ul>
-                            <li><Link href="https://www.kungfuscuolaxindao.it/shaolin-kung-fu/"><strong>Shaolin Quan</strong></Link> (stile/pugno della giovane foresta)</li>
+                            <li><Link href="/blog/articles/shaolinquan"><strong>Shaolin Quan</strong></Link> (stile/pugno della giovane foresta)</li>
                             <li><strong>Chang Quan</strong> (boxe lunga)</li>
                             <li><strong>Cha Quan</strong> (similare allo stile Chang Quan e significa pugno che percuote)</li>
                             <li><strong>Shuaijiao</strong> (lotta cinese)</li>
@@ -358,7 +358,7 @@ export default function ({title, description, date, cover, category}) {
                             <li><strong>Niu Quan</strong> (stile del bue)</li>
                             <li><strong>Bailong Quan</strong> (stile del Drago Bianco)</li>
                             <li><strong>Tanglang Quan</strong> (stile della mantide religiosa)</li>
-                            <li><strong>Tanglonghushi</strong> (stile della tigre e della mantide religiosa</li>
+                            <li><strong>Tanglonghushi</strong> (stile della tigre e della mantide religiosa)</li>
                             <li><strong>Yingzhao Quan</strong> (stile dell’artiglio dell’aquila)</li>
                             <li><strong>Zuijiu Quan</strong> (stile dell’ubriaco)</li>
                             <li><strong>Da Sheng Pi Gua Men</strong> (stile della scimmia)</li>
@@ -375,7 +375,7 @@ export default function ({title, description, date, cover, category}) {
                     </p>
                     <p>
                         In seguito, l’evoluzione di questa disciplina ha fatto maturare, da parte
-                        dei <strong><Link href="https://www.kungfuscuolaxindao.it/scuola-kung-fu-milano/maestri-del-passato/">Maestri del passato</Link></strong>,
+                        dei <strong><Link href="/scuola/maestri_passato">Maestri del passato</Link></strong>,
                         la volontà di una ricerca volta all’evoluzione dell’uomo, per fare in modo che potesse
                         sfruttare le qualità fisiche per essere più forte unite a quelle mentali per essere in salute.
                     </p>
@@ -401,7 +401,10 @@ export default function ({title, description, date, cover, category}) {
                         delle <strong>forme</strong> e delle <strong>tecniche a mani nude</strong>, creati secondo il
                         principio della massima efficacia con minor dispendio energetico possibile.
                     </p>
-                    <p>Questi esercizi, sono chiavi di accesso a una realtà più profonda. Un detto delle <strong>arti marziali</strong> tramandato tra <strong>Maestri cinesi</strong> recita:</p>
+                    <p>
+                        Questi esercizi, sono chiavi di accesso a una realtà più profonda. Un detto delle <strong>arti
+                        marziali</strong> tramandato tra <strong>Maestri cinesi</strong> recita:
+                    </p>
                     <Quote>
                         <p>
                             Per costruire un castello ci vuole molto tempo e tanto lavoro, ma sarà poi assai difficile
@@ -434,8 +437,7 @@ export default function ({title, description, date, cover, category}) {
                         Il primo dovere di un Maestro (<strong><em>Shi Fu</em></strong>), dovrebbe essere quello di
                         fornire un’educazione che aiuti a crescere persone complete e migliori. In Cina, infatti, non
                         era desueto che le famiglie affidassero, a tale scopo, un figlio a
-                        un <Link href="https://www.kungfuscuolaxindao.it/scuola-kung-fu-milano/maestro-marco-gamuzza/">
-                            <strong>Maestro di Kung Fu</strong></Link>.
+                        un <Link href="/scuola/maestro_gamuzza"><strong>Maestro di Kung Fu</strong></Link>.
                     </p>
 
                     <h2>Come scegliere lo stile di Kung Fu</h2>
@@ -446,7 +448,7 @@ export default function ({title, description, date, cover, category}) {
                     <p>
                         A nostro parere, lo <strong>stile più completo</strong> per avvicinarti
                         al <strong>Kung Fu</strong> - che tu sia già un adulto o che tu voglia far avvicinare tuo
-                        figlio - <strong>è lo <Link href="https://www.kungfuscuolaxindao.it/shaolin/">Shaolin</Link></strong> e
+                        figlio - <strong>è lo <Link href="/blog/articles/shaolinquan">Shaolin</Link></strong> e
                         ti spieghiamo subito perché.
                     </p>
                     <p>
@@ -471,7 +473,7 @@ export default function ({title, description, date, cover, category}) {
                     <p>
                         I benefici sopra elencati possono essere sviluppati grazie a tutta quella serie di
                         "elementi", <strong>tecniche di Kung Fu</strong>, che come un puzle compongono il mondo
-                        dello <Link href="https://www.kungfuscuolaxindao.it/shaolin/"><strong>Shaolin</strong></Link>,
+                        dello <Link href="/blog/articles/shaolinquan"><strong>Shaolin</strong></Link>,
                         e sono:
                     </p>
                     <ul>
@@ -487,7 +489,7 @@ export default function ({title, description, date, cover, category}) {
                         <li>In aggiunta: <Link href="https://www.kungfuscuolaxindao.it/armi-kung-fu/"><strong>studio delle armi tradizionali</strong></Link> per avere un bagaglio marziale completo al 100%.</li>
                     </ul>
                     <p>
-                        Questi elementi - insieme a <Link href="https://www.kungfuscuolaxindao.it/i-5-principi-del-kung-fu/"><strong>principi del
+                        Questi elementi - insieme a <Link href="/blog/articles/principi_kungfu"><strong>principi del
                         Kung Fu</strong></Link> - sono la "chiave" per fornire un bagaglio marziale completo a 360° al
                         praticante e stanno alla base dei programmi di una <Link href="https://www.kungfuscuolaxindao.it/scuola-kung-fu-milano/"><strong>Scuola
                         di Kung Fu</strong></Link> seria. Diffida da chi lavora solo un elemento o tralascia informazioni
