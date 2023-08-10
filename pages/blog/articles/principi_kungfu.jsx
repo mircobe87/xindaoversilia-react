@@ -32,7 +32,6 @@ export default function ({title, description, date, cover, category}) {
                     <h1>{title}</h1>
                     <div className={styles.metadataContainer}><ArticleMetadata date={date} category={category}></ArticleMetadata></div>
                     <img src={cover} alt={cover}></img>
-                    <h2>Introduzione: Principi del Kung fu</h2>
                     <p>
                         Nella <strong>pratica del <Link href="/blog/articles/kungfu">Kung Fu Wushu</Link></strong>, di qualunque
                         stile si tratti, è essenziale studiare e allenarsi con delle linee guida, che ti consentano di progredire
@@ -79,6 +78,8 @@ export default function ({title, description, date, cover, category}) {
                         <div><strong>步</strong></div>
                         <div><strong>BÙ</strong></div>
                     </span>
+
+                    <h2>Principi del Kung fu</h2>
 
                     <h3><strong>手</strong> (shǒu): Mano</h3>
                     <p>
