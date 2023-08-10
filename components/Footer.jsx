@@ -29,7 +29,7 @@ export default function Footer() {
                         <ul>
                             <li><Link href="/scuola/xin_dao">Scuola Xin Dao</Link></li>
                             <li><Link href="/scuola/maestro_dazzini">Maestro Federico Dazzini</Link></li>
-                            <li><Link href="/scuola/maestro_gumazza">Maestro Marco Gumazza</Link></li>
+                            <li><Link href="/scuola/maestro_gamuzza">Maestro Marco Gamuzza</Link></li>
                             <li><Link href="/scuola/maestro_linsheng">Maestro Yang Linsheng</Link></li>
                             <li><Link href="/scuola/maestri_passato">Maestri Del Passato</Link></li>
                             <li><Link href="/scuola/sistema_gradi">Sistema Dei Gradi</Link></li>

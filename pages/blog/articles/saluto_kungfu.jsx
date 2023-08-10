@@ -150,7 +150,7 @@ export default function ({title, description, date, cover, category}) {
                     <p>
                         Ecco spiegata l'importanza del saluto, i suoi usi e il significato più profondo.
                     </p>
-                    <Quote author="Maestro Marco Gumazza" href="https://www.kungfuscuolaxindao.it/saluto-kung-fu/">
+                    <Quote author="Maestro Marco Gamuzza" href="https://www.kungfuscuolaxindao.it/saluto-kung-fu/">
                         <p>Il saluto è nel rispetto e il rispetto inizia con il saluto.</p>
                     </Quote>
                 </div>

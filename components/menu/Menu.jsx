@@ -38,7 +38,7 @@ export default function Menu({children}) {
                 <SubMenu name="Scuola" currentOpenedSubMenu={openSubmenuName} onClick={onSubMenuClick}>
                     <MenuEntry name="Scuola Xin Dao" href="/scuola/xin_dao"></MenuEntry>
                     <MenuEntry name="Maestro Federico Dazzini" href="/scuola/maestro_dazzini"></MenuEntry>
-                    <MenuEntry name="Maestro Marco Gumazza" href="/scuola/maestro_gumazza"></MenuEntry>
+                    <MenuEntry name="Maestro Marco Gamuzza" href="/scuola/maestro_gamuzza"></MenuEntry>
                     <MenuEntry name="Maestro Yang Linsheng" href="/scuola/maestro_linsheng"></MenuEntry>
                     <MenuEntry name="Maestri Del Passato" href="/scuola/maestri_passato"></MenuEntry>
                     <MenuEntry name="Sistema Dei Gradi" href="/scuola/gradi"></MenuEntry>

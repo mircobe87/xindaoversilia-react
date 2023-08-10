@@ -347,7 +347,7 @@ export default function ({title, description, date, cover, category}) {
                     <p>
                         Per come intendo io la <strong>Via del Kung Fu</strong>:
                     </p>
-                    <Quote author="Maestro Marco Gumazza">
+                    <Quote author="Maestro Marco Gamuzza">
                         <p>Acquisisci le capacità e principi dell’arte marziale per poi estenderle in tutta la tua vita.</p>
                     </Quote>
 
@@ -434,7 +434,7 @@ export default function ({title, description, date, cover, category}) {
                         E tu, hai mai praticato arti marziali? Quale arte marziale ti affascina di più e perché?
                     </p>
                     <p>
-                        Maestro <Link href="/scuola/maestro_gumazza/">Marco Gamuzza</Link>
+                        Maestro <Link href="/scuola/maestro_gamuzza/">Marco Gamuzza</Link>
                     </p>
                 </div>
             </BoilerPlate>

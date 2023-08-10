@@ -276,7 +276,7 @@ export default function ({title, description, date, cover, category}) {
                             Shaolin</strong>.
                     </p>
                     <p>
-                        Maestro <Link href="/scuola/maestro_gumazza/">Marco Gamuzza</Link>
+                        Maestro <Link href="/scuola/maestro_gamuzza/">Marco Gamuzza</Link>
                     </p>
                 </div>
             </BoilerPlate>

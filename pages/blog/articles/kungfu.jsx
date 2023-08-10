@@ -48,7 +48,7 @@ export default function ({title, description, date, cover, category}) {
                     </p>
 
                     <h2>Kung Fu: cos’è?</h2>
-                    <Image src="/images/blog/gumazza-linsheng.jpg" alt="kung-fu: cos'è?" width={452} height={480}/>
+                    <Image src="/images/blog/gamuzza-linsheng.jpg" alt="kung-fu: cos'è?" width={452} height={480}/>
                     <p>
                         <strong>Cos’è il Kung Fu?</strong>
                     </p>
@@ -122,7 +122,7 @@ export default function ({title, description, date, cover, category}) {
                     </p>
 
                     <p>
-                        Maestro <Link href="/scuola/maestro_gumazza/">Marco Gamuzza</Link>
+                        Maestro <Link href="/scuola/maestro_gamuzza/">Marco Gamuzza</Link>
                     </p>
                 </div>
             </BoilerPlate>

@@ -1,7 +1,7 @@
 import Layout from "../../components/layout/Layout";
 import BoilerPlate from "../../components/layout/BoilerPlate";
 
-const title = "Maestro Marco Gumazza";
+const title = "Maestro Marco Gamuzza";
 const description = "";
 
 export default function() {
