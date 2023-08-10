@@ -236,7 +236,7 @@ export default function ({title, description, date, cover, category}) {
                     <p>
                         Dal punto di vista delle tecniche, degli esercizi e delle sequenze, tra gli insegnamenti più importanti che Damo ha
                         lasciato ai suoi discepoli e che hanno contribuito a creare il primo nucleo dello <a
-                            href="https://www.kungfuscuolaxindao.it/shaolin/"><strong>Stile Shaolin</strong></a> abbiamo:
+                            href="/blog/articles/shaolinquan"><strong>Stile Shaolin</strong></a> abbiamo:
                     </p>
                     <ul>
                         <li>I 18 palmi dei discepoli del <strong>Buddha</strong> (Luo Han Shi Ba Shou)</li>

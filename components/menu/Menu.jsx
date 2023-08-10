@@ -47,7 +47,7 @@ export default function Menu({children}) {
                 </SubMenu>
                 <SubMenu name="Stili" currentOpenedSubMenu={openSubmenuName} onClick={onSubMenuClick}>
                     <MenuEntry name="Kung Fu" href="/blog/articles/kungfu"></MenuEntry>
-                    <MenuEntry name="Shaolin Quan" href="/stili/shaolin_quan"></MenuEntry>
+                    <MenuEntry name="Shaolin Quan" href="/blog/articles/shaolinquan"></MenuEntry>
                 </SubMenu>
                 <MenuEntry name="Kung Fu Blog" href="/blog/blog-index"></MenuEntry>
                 <SubMenu name="Eventi" currentOpenedSubMenu={openSubmenuName} onClick={onSubMenuClick}>

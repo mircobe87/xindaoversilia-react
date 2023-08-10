@@ -72,7 +72,7 @@ export default function() {
                     </div>
                     <p>
                         Come abbiamo detto ogni <strong>stile</strong> ha un suo sistema che può variare di molto.&nbsp;Nella nostra scuola
-                        il <strong>sistema dei gradi di Kung Fu <Link href="https://www.kungfuscuolaxindao.it/shaolin/">Shaolin</Link></strong>, in
+                        il <strong>sistema dei gradi di Kung Fu <Link href="/blog/articles/shaolinquan">Shaolin</Link></strong>, in
                         cinese "<em><strong>ji</strong></em>", sono costituiti da uno stemma rappresentante l’ideogramma "<em><strong>wu</strong></em>".
                         Esso è da applicare sulla cintura bianca, per ogni livello si tolgono i ji precedenti per lasciare spazio a quelli futuri,
                         sono 7 e si dividono su tre livelli:

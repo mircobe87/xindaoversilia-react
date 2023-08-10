@@ -227,7 +227,7 @@ export default function ({title, description, date, cover, category}) {
                         Per approfondire leggi:
                     </p>
                     <ul>
-                        <li><Link href="https://www.kungfuscuolaxindao.it/shaolin/"><strong>La storia di Shaolin</strong></Link></li>
+                        <li><Link href="/blog/articles/shaolinquan"><strong>La storia di Shaolin</strong></Link></li>
                     </ul>
                     <p>
                         Gli stili interni invece si concentrano sullo ascolto profondo di tutta la struttura fisica attraverso movimenti più
@@ -314,7 +314,7 @@ export default function ({title, description, date, cover, category}) {
                     </p>
                     <ul>
                         <li><Link href="https://it.wikipedia.org/wiki/Kalarippayattu" target="_blank" rel="noopener"><strong>Kalary Payat</strong></Link>, periodo vedico 3500 a.C., popolazioni antiche dell’India</li>
-                        <li><Link href="/blog/articles/kungfu"><strong>Kung Fu</strong></Link> - <Link href="https://www.kungfuscuolaxindao.it/shaolin/"><strong>Shaolin</strong></Link>, 527 d.C., fondatore Bodhidharma</li>
+                        <li><Link href="/blog/articles/kungfu"><strong>Kung Fu</strong></Link> - <Link href="/blog/articles/shaolinquan"><strong>Shaolin</strong></Link>, 527 d.C., fondatore Bodhidharma</li>
                         <li><Link href="https://www.kungfuscuolaxindao.it/tai-chi-quan/"><strong>Tai Chi</strong></Link>, tra la Dinastia Song e l’inizio della Dinastia Yuan (1274-1368 d.C.), secondo la leggenda il fondatore è Chang San Feng</li>
                         <li><Link href="https://www.kungfuscuolaxindao.it/wing-chun/"><strong>Wing Chun</strong></Link>, periodo (1662-1722), fondatrice monaca buddista Ng Mui</li>
                         <li>Capoeira (periodo coloniale 1500-1815)</li>
