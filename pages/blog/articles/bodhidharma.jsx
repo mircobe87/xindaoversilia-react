@@ -35,14 +35,14 @@ export default function ({title, description, date, cover, category}) {
                     <p>
                         <strong>Bodhidharma</strong> è un personaggio avvolto dalla leggenda, colui che secondo la tradizione
                         scritta e orale <strong>cinese</strong> sarebbe sia il fondatore del <strong>Buddismo Chan</strong> in
-                        Cina e il <strong>fondatore del <Link href="https://www.kungfuscuolaxindao.it/kung-fu/">Kung Fu</Link></strong> o
+                        Cina e il <strong>fondatore del <Link href="/blog/articles/kungfu">Kung Fu</Link></strong> o
                         ancora meglio precisare del primo nucleo di <Link href="https://www.kungfuscuolaxindao.it/che-cose-lo-shaolin/">
                         <strong>tecniche dello stile Shaolin</strong></Link>.
                     </p>
                     <p>
                         In questo articolo percorreremo insieme gli aspetti più importanti della sua vita, i testi che ne raccontano
                         le gesta e i suoi contributi sia al <strong>Buddismo</strong> che
-                        alle <Link href="https://www.kungfuscuolaxindao.it/elenco-arti-marziali-cinesi/"><strong>arti marziali
+                        alle <Link href="/blog/articles/kungfu"><strong>arti marziali
                         cinesi</strong></Link>.
                     </p>
 

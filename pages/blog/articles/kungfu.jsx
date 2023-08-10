@@ -64,7 +64,7 @@ export default function ({title, description, date, cover, category}) {
                     </p>
                     <p>
                         Non è molto chiaro il processo storico attraverso il quale si è giunti a usare questo termine per definire le <Link
-                            href="https://www.kungfuscuolaxindao.it/elenco-arti-marziali-cinesi/"><strong>arti marziali cinesi</strong></Link>.
+                            href="/blog/articles/kungfu"><strong>arti marziali cinesi</strong></Link>.
                         Con probabilità, l’origine va cercata nel sud della Cina, forse perché in un’epoca in cui non esistevano le armi da
                         fuoco conoscere la <strong>difesa personale</strong> diveniva un’abilità.
                     </p>

@@ -33,7 +33,7 @@ export default function ({title, description, date, cover, category}) {
                     <img src={cover} alt={cover}></img>
                     <p>
                         <strong>Shaolin</strong> è il termine con cui si identificano 3 elementi: l’<strong>insieme degli stili esterni
-                        delle <Link href="https://www.kungfuscuolaxindao.it/elenco-arti-marziali-cinesi/">arti marziali cinesi</Link></strong> (alveo Shaolin)
+                        delle <Link href="/blog/articles/kungfu">arti marziali cinesi</Link></strong> (alveo Shaolin)
                         che convidiono elementi comuni, lo <strong>stile di Kung Fu</strong>, il <strong>tempio</strong> sulle
                         montagne del Song Shan nel nord della Cina.
                     </p>
@@ -43,7 +43,7 @@ export default function ({title, description, date, cover, category}) {
                     <Image src="/images/blog/shaolin_tempio.jpg" width={480} height={320} alt="tempio shaolin"/>
                     <p>
                         <strong>Shaolin Quan</strong>, letteralmente <em>pugilato/pugno della giovane foresta</em>, è uno stile
-                        di <Link href="https://www.kungfuscuolaxindao.it/kung-fu/"><strong>Kung Fu</strong></Link> a mani nude o
+                        di <Link href="/blog/articles/kungfu"><strong>Kung Fu</strong></Link> a mani nude o
                         con armi, praticato tradizionalmente dai <strong>monaci Shaolin</strong>; esso è il più importante tra
                         gli stili cosiddetti Wai Jia (stili esterni delle <strong>arti marziali cinesi</strong>) e questo è il
                         motivo per cui il nostro <strong><Link href="https://www.kungfuscuolaxindao.it/corsi-kung-fu/corso-kung-fu-adulti/" target="_blank" rel="noopener noreferrer">
@@ -63,7 +63,7 @@ export default function ({title, description, date, cover, category}) {
                         chiamato <strong>Shaolinsi</strong> (少林寺) che sorge sul monte Song Shan nella <strong>Cina settentrionale</strong> (Henan),
                         eremo che in antichità era ritenuto dai taoisti l’asse della terra, posto appena al di sotto del cielo.
                         Il tempio, casa dei <strong>monaci Shaolin</strong>, oltre a essere il luogo d’origine
-                        del <Link href="https://www.kungfuscuolaxindao.it/kung-fu/"><strong>Kung Fu</strong></Link>, è il luogo
+                        del <Link href="/blog/articles/kungfu"><strong>Kung Fu</strong></Link>, è il luogo
                         in cui è nato il <strong>Buddismo chan</strong> (maggiormente conosciuto nella corrente giapponese definita <strong><em>zen</em></strong>).
                     </p>
 

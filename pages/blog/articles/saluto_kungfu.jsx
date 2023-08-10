@@ -23,14 +23,14 @@ export default function ({title, description, date, cover, category}) {
                     <img src={cover} alt={cover}></img>
                     <p>
                         Avrai sentito parlare anche tu o visto il <strong>saluto del Kung Fu</strong>, un gesto tipico
-                        del mondo delle <Link href="https://www.kungfuscuolaxindao.it/elenco-arti-marziali-cinesi/"><strong>arti marziali cinesi</strong></Link>,
+                        del mondo delle <Link href="/blog/articles/kungfu"><strong>arti marziali cinesi</strong></Link>,
                         ricco di significati originari della <strong>tradizione cinese</strong>.
                     </p>
                     <p>
                         Il <strong>saluto tradizionale</strong> rappresenta un segno di rispetto per tutti i praticanti di
                         Kung Fu:&nbsp;sia tra fratelli di pratica, sia nei confronti degli insegnanti e del Maestro. Si
                         tratta di un gesto di appartenenza alla stessa famiglia
-                        del <Link href="https://www.kungfuscuolaxindao.it/kung-fu/"><strong>Kung Fu</strong></Link>.
+                        del <Link href="/blog/articles/kungfu"><strong>Kung Fu</strong></Link>.
                     </p>
                     <p>
                         Potremmo definire questo gesto una sorta di rito da compiere ogni qual volta il praticante si

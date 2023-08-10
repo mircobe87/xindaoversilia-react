@@ -192,7 +192,7 @@ export default function ({title, description, date, cover, category}) {
                         relazione con i principi filosofici del Buddhismo Chan.
                     </p>
                     <p>
-                        La <Link href="https://www.kungfuscuolaxindao.it/kung-fu/"><strong>nascita del Kung Fu</strong></Link> è infatti attribuita
+                        La <Link href="/blog/articles/kungfu"><strong>nascita del Kung Fu</strong></Link> è infatti attribuita
                         ad un leggendario monaco chiamato <Link
                             href="https://www.kungfuscuolaxindao.it/bodhidharma/"><strong>Bodhidharma</strong></Link> che avrebbe permesso la
                         diffusione del buddhismo di corrente Chan (altre correnti del Buddhismo erano già diffuse in Cina).
@@ -314,7 +314,7 @@ export default function ({title, description, date, cover, category}) {
                     </p>
                     <ul>
                         <li><Link href="https://it.wikipedia.org/wiki/Kalarippayattu" target="_blank" rel="noopener"><strong>Kalary Payat</strong></Link>, periodo vedico 3500 a.C., popolazioni antiche dell’India</li>
-                        <li><Link href="https://www.kungfuscuolaxindao.it/kung-fu/"><strong>Kung Fu</strong></Link> - <Link href="https://www.kungfuscuolaxindao.it/shaolin/"><strong>Shaolin</strong></Link>, 527 d.C., fondatore Bodhidharma</li>
+                        <li><Link href="/blog/articles/kungfu"><strong>Kung Fu</strong></Link> - <Link href="https://www.kungfuscuolaxindao.it/shaolin/"><strong>Shaolin</strong></Link>, 527 d.C., fondatore Bodhidharma</li>
                         <li><Link href="https://www.kungfuscuolaxindao.it/tai-chi-quan/"><strong>Tai Chi</strong></Link>, tra la Dinastia Song e l’inizio della Dinastia Yuan (1274-1368 d.C.), secondo la leggenda il fondatore è Chang San Feng</li>
                         <li><Link href="https://www.kungfuscuolaxindao.it/wing-chun/"><strong>Wing Chun</strong></Link>, periodo (1662-1722), fondatrice monaca buddista Ng Mui</li>
                         <li>Capoeira (periodo coloniale 1500-1815)</li>
