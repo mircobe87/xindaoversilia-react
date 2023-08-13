@@ -23,7 +23,7 @@ export default function Footer() {
                         <li>Corsi</li>
                         <ul>
                             <li><Link href="/corsi/adulti">Corso per Adulti</Link></li>
-                            <li><Link href="/corsi/bambini">Corso per Bambini</Link></li>
+                            <li><Link href="/corsi/ragazzi">Corso per Ragazzi</Link></li>
                         </ul>
                         <li>Scuola</li>
                         <ul>

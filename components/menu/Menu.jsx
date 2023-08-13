@@ -33,7 +33,7 @@ export default function Menu({children}) {
                 <MenuEntry name="Home" href="/"></MenuEntry>
                 <SubMenu name="Corsi" currentOpenedSubMenu={openSubmenuName} onClick={onSubMenuClick}>
                     <MenuEntry name="Corso Per Adulti" href="/corsi/adulti"></MenuEntry>
-                    <MenuEntry name="Corso Per Bambini" href="/corsi/bambini"></MenuEntry>
+                    <MenuEntry name="Corso Per Ragazzi" href="/corsi/ragazzi"></MenuEntry>
                 </SubMenu>
                 <SubMenu name="Scuola" currentOpenedSubMenu={openSubmenuName} onClick={onSubMenuClick}>
                     <MenuEntry name="Scuola Xin Dao" href="/scuola/xin_dao"></MenuEntry>
