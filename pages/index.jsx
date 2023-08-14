@@ -3,6 +3,8 @@ import styles from '../styles/index.module.css';
 import Layout from '../components/layout/Layout';
 import BoilerPlate from '../components/layout/BoilerPlate';
 import Link from 'next/link';
+import Image from 'next/image';
+import { BsPinMapFill, BsFillClockFill } from 'react-icons/bs';
 
 export const title = "Kung Fu XinDao Versilia";
 export const description = "Scuola di Kung Fu tradizionale in Versilia";
@@ -92,6 +94,61 @@ export default function Home() {
           </div>
         </div>
         <div className={styles.bottomSeparator}></div>
+
+        <div className={styles.corsoPreviewContainer}>
+          <h1>Corsi di arti marziali cinesi per ragazzi</h1>
+          <h2>Educazione del corpo. Concentrazione. Austostima</h2>
+          <div className={styles.corsoPreviewBody}>
+            <Image src="/images/corso-di-kung-fu-per-bambini-milano-1024x693-1.jpg" alt="Corso per Ragazzi" width={480} height={320}/>
+            <div>
+              <h3>Corso di Kung Fu Shaolin ragazzi per 7-13 anni</h3>
+              <p><BsPinMapFill/>&nbsp;Via Ugo la Malfa, 7 Paderno Dugnano (Milano)</p>
+              <p><BsFillClockFill/>&nbsp;Lun 18.30-19.30 - Ven 18.00-19.00</p>
+              <p>
+                Nel corso junior il giovane praticante si affaccia all’arte marziale in modo più completo. Attraverso lezioni
+                mirate sviluppa un’ottima padronanza del suo corpo, accresce la sua capacità di socializzare con gli altri e
+                migliora le capacità motorie e di autodifesa.
+              </p>
+              <p><Link href="/corsi/ragazzi">Guarda il Programma</Link></p>
+            </div>
+          </div>
+        </div>
+
+        <div className={styles.corsoPreviewContainer}>
+          <h1>Corsi di arti marziali cinesi per adulti</h1>
+          <h2>Forma Fisica. Autodifesa. Sicurezza in te stesso/a.</h2>
+          <div className={styles.corsoPreviewBody}>
+            <Image src="/images/corso-shaolin-adulti.jpeg" alt="Corso Shaolin Adulti" width={480} height={320}/>
+            <div>
+              <h3>Corso di Kung Fu Shaolin per adulti</h3>
+              <p><BsPinMapFill/>&nbsp;Via Ugo la Malfa, 7 Paderno Dugnano (Milano)</p>
+              <p><BsFillClockFill/>&nbsp;Lun-Ven / 19.30-21.00</p>
+              <p>
+                Il Corso di Kung Fu per adulti è stato sviluppato per farti compiere un vero e proprio percorso dentro e fuori di
+                te, lavorando sulla tua preparazione fisica, sullo sviluppo del tuo focus mentale e sulla tua sicurezza in te
+                stesso/a aumentando così il tuo potenziale inespresso.
+              </p>
+              <p><Link href="/corsi/adulti">Guarda il Programma</Link></p>
+            </div>
+          </div>
+        </div>
+      </BoilerPlate>
+      <BoilerPlate className={styles.mapBoilerPlate}>
+        <div className={styles.mapFooter}>
+          <div>
+            <h1>Dove si svolgono i corsi</h1>
+            <p>Palestra Gramsci -&nbsp;Via Ugo la Malfa, 7</p>
+            <p>20037 Paderno Dugnano (Milano)</p>
+            <p>Tel. 02 9192 0562</p>
+            <p>Prenota una lezione GRATUITA di Kung Fu a Milano.</p>
+          </div>
+          <div>
+            <a href="https://goo.gl/maps/HoEJn6gNc2CQ8byn7" target="_blank">
+              <Image src="/images/map.png" alt="mappa" width={480} height={320}></Image>
+              <p><em>Cliccando sull’immagine si aprirà Google Maps</em></p>
+            </a>
+          </div>
+        </div>
       </BoilerPlate>
     </Layout>
   );

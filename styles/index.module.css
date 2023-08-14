@@ -94,3 +94,85 @@
     text-decoration: none;
     color: #cc0000;
 }
+
+.corsoPreviewContainer {
+    text-align: center;
+    padding: 64px 0;
+}
+
+.corsoPreviewContainer > h1 {
+    font-size: 38px;
+    line-height: 38px;
+    font-weight: 400;
+    margin: 0;
+    padding: 16px 0;
+    background-color: #ebebeb;
+}
+
+.corsoPreviewContainer > h2 {
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: 600;
+    margin: 0 0 16px 0;
+    padding: 0 0 16px 0;
+    background-color: #ebebeb;
+    color: #cc0000;
+}
+
+.corsoPreviewBody {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align: justify;
+}
+
+.corsoPreviewBody h3 {
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.corsoPreviewBody svg {
+    color: #cc0000;
+}
+
+.corsoPreviewBody a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 12px;
+    margin: 8px 0;
+    background-color: #cc0000;
+    border-radius: 4px;
+}
+
+.corsoPreviewBody > div {
+    width: 480px;
+    padding: 0 8px;
+}
+
+.mapBoilerPlate {
+    background-color: #ebebeb;
+}
+
+.mapFooter {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 32px 8px;
+    flex-wrap: wrap;
+}
+
+.mapFooter a {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    color: inherit;
+}
+
+.mapFooter a p {
+    margin: 0;
+    padding: 0;
+}
+
+.mapFooter img {
+    border-radius: 8px;
+    box-shadow: 0 2px 18px 0 rgba(0,0,0,.3);
+}
